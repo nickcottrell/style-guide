@@ -1,11 +1,11 @@
 {
-  "name": "wikia-style-guide",
-  "version": "0.2.2",
-  "homepage": "http://wikia.github.io/style-guide",
+  "name": "sg-pages",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Wikia/style-guide",
   "authors": [
     "Kenneth Kouot <kenneth@wikia-inc.com>"
   ],
-  "description": "Front-end style guide based on Zurb's Foundation",
+  "description": "living style guide for wikia-style-guide",
   "license": "MIT",
   "private": true,
   "ignore": [
@@ -15,5 +15,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "wikia-style-guide": "git@github.com:Wikia/style-guide.git#dev"
+  }
 }
